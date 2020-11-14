@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div__img {
+    width: 600px;
+    height: 400px;
+    transform: rotate(-30deg);
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 250px;
+    background-position-y: 50%;
+}
+
+.div__img .ass{
+    max-width: 800px;
+    min-height: 700px;
+    overflow: hidden;
+    transform: rotate(30deg);
+    margin-top: -30%;
+    margin-left: -5%;
+
+}
+

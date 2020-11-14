@@ -11,6 +11,9 @@
 body {
     background-color: #F4F9E2;
     font-family: "Larsseit";
+    /* max-width: 1440px; */
+    overflow-x: hidden;
+    /* margin-right: -10%; */
 }
 
 li {
@@ -24,24 +27,35 @@ a {
 /* Странная фоточка */
 
 .pic__abs {
-    /* width: 522px; */
+    width: 600px;
+    height: 400px;
+    transform: rotate(-30deg);
+    overflow: hidden;
     position: absolute;
-    left: 60%;
-    width: 300px;
-    height: 200px;
-    /* height: 400px; */
-    /* margin-top: 30%; */
-    /* transform: matrix(1, -0.3, 0.3, 1, 7, 4); */
-    border-radius: 30%;
-    transform: rotate(-20deg);
+    margin-left: 70%;
+    border-radius: 200px;
+    margin-top: 4%;
     background-position-y: 50%;
 }
 
 .pic__abs img {
-    /* background: url(img/linkedin-sales-navigator-406825.jpg) no-repeat; */
-    min-width: 200px;
-    min-height: 300px;
-    border-radius: 40%;
+    max-width: 800px;
+    min-height: 700px;
+    overflow: hidden;
+    transform: rotate(30deg);
+    margin-top: -30%;
+    margin-left: -15%;
+}
+
+.rectangle {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 67%;
+    transform: rotate(-65deg);
+    margin-top: -5%;
+    background: #EDFDFF;
+    border-radius: 30%;
 }
 
 /* Header */
@@ -107,4 +121,70 @@ header {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 14px;
+}
+
+/* Home */
+
+.home {
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.home__container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home__container h3 {
+    color: #62D0DF;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.home__fisrt__p {
+    font-size: 48px;
+    color: #22356F;
+    margin-bottom: 45px;
+}
+
+.home__second__p {
+    font-size: 24px;
+    color: #22356F;
+    margin-bottom: 63px;
+}
+
+.white__rect {
+    background: #ffffff;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -25%;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+}
+
+.home__first__a {
+    padding: 10px 30px;
+    background: #F9B640;
+    color: #ffffff;
+    margin-right: 38px;
+    font-size: 16px;
+    transition: all.9s ease;
+}
+
+.home__first__a:hover {
+    transition: all.9s ease;
+    background: #62D0DF;
+    /* dda749 */
+}
+
+.home__second__a {
+    color: #F9B640;
+    transition: all.9s ease;
+}
+
+.home__second__a:hover {
+    transition: all.9s ease;
+    color: #62D0DF;
 }
