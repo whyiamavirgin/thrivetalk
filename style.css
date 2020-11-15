@@ -29,7 +29,7 @@
 }
 
 body {
-    background-color: #F4F9E2;
+    background-color: #ffffff;
     font-family: "Larsseit";
     /* max-width: 1440px; */
     overflow-x: hidden;
@@ -87,6 +87,7 @@ header {
     display: flex;
     justify-content: space-around;
     margin-top: 27px;
+    /* background: #F4F9E2; */
 }
 
 .header__container {
@@ -150,6 +151,7 @@ header {
     margin-top: 170px;
     display: grid;
     grid-template-columns: auto;
+    /* background: #F4F9E2; */
 }
 
 .home__container {
@@ -382,4 +384,216 @@ header {
 
 #sixth__four {
     background: #8F00FF;
+}
+
+/* ??? */
+
+.services__text {
+    width: 100%;
+    height: 480px;
+    margin-top: 22px;
+    background: #ffffff;
+}
+
+.services__text .services__text__container {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.foxed {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    height: 240px;
+}
+
+.foxed h3 {
+    margin-top: 55px;
+    margin-bottom: 28px;
+    font-size: 28px;
+    color: #22356F;
+    font-family: "Larsseit-Light";
+    letter-spacing: -0.03em;
+}
+
+.foxed p {
+    width: 298px;
+    font-size: 16px;
+    color: rgba(34, 53, 111, 0.5);
+    letter-spacing: -0.03em;
+}
+
+/* U should also know block */
+
+.also__know__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 480px auto;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.also__know__pic {
+    background: url(img/402831.png);
+    width: 100%;
+    height: 800px;
+}
+
+.also__know__text {
+    margin-left: 106px;
+    /* display: flex; */
+    /* justify-content: start; */
+}
+
+.also__know__text h3 {
+    margin-top: 103px;
+    font-size: 16px;
+    color: #22356F;
+    font-family: "Larsseit-Thin";
+    margin-bottom: 225px;
+}
+
+.also__know__text p {
+    font-family: "Larsseit-Medium";
+    font-size: 36px;
+    width: 676px;
+    color: #22356F;
+    margin-bottom: 152px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+}
+
+.also__know__text a {
+    font-size: 16px;
+    line-height: 23px;
+    font-family: "Larsseit-Light";
+    letter-spacing: 0.1em;
+    line-height: 23px;
+    color: #FAB63E;
+}
+
+.light__blue {
+    color: #6CD3E1;
+}
+
+/* Contact Us block */
+
+.contact__us__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 480px;
+}
+
+.contact__us__text {
+    background: #22356F;
+    padding-left: 180px;
+}
+
+.contact__us__text h5 {
+    margin-top: 103px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 230px;
+    font-family: "Larsseit-Thin";
+}
+
+.contact__us__text h3 {
+    font-size: 64px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    margin-bottom: 75px;
+}
+
+.contact__us__text p {
+    width: 579px;
+    font-size: 36px;
+    letter-spacing: -0.005em;
+    color: #ffffff;
+    line-height: 53px;
+}
+
+.contact__us__text h4 {
+    margin-top: 6.5%;
+    font-family: "Larsseit-Light";
+    letter-spacing: 0.1em;
+}
+
+.contact__us__text a {
+    color: #62D0DF;
+}
+
+.contact__us__pic {
+    background: url(img/charles-etoroma-390119.jpg);
+    height: 800px;
+}
+
+/* Almost footer block */
+
+.almost__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 570px auto;
+}
+
+.almost__pic {
+    background: url(img/autumn-goodman-242825.jpg);
+    height: 380px;
+}
+
+.almost__text {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    padding-top: 98px;
+    padding-left: 68px;
+}
+
+.almost__text h2 {
+    color: #22356F;
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    margin-bottom: 65px;
+}
+
+.almost__text p, .number {
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.almost__first__block p {
+    width: 207px;
+    font-size: 14px;
+}
+
+.num {
+    margin-top: 30px;
+}
+
+.almost__second__block h4 {
+    font-family: "Larsseit-Thin";
+    margin-top: 3%;
+}
+
+.almost__second__block a {
+    color: #0092FF;
+}
+
+/* Footer block */
+
+.footer__container {
+    width: 100%;
+    height: 80px;
+    background: #62D0DF;
+    color: #ffffff;
+    display: flex;
+    padding-left: 179px;
+}
+
+.footer__container p {
+    margin-top: 32px;
+}
+
+.dot2 {
+    width: 11px;
+    height: 11px;
+    margin-top: 2px;
 }
